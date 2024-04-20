@@ -1,0 +1,109 @@
+html{   
+    bottom: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecera{
+    display: flex;
+}
+
+.menu{
+    margin-top: 3%;
+    margin-left:60%; display: flex; 
+    border: 1px solid black; height: 10%; width: 350px; 
+    background-color: #f7f7f7; 
+    height: 5%;
+}
+
+.menu p{
+
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.contenido{
+
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.conversacion{
+    border: 1px solid black;margin-left: 23.6%;padding:1%;width:50%;height:400px;overflow-y:scroll;
+
+}
+.contenedorUsuario{
+
+  display: flex;
+
+
+}
+
+#user{
+
+
+     background-color: white;
+     border: 1px solid black;
+     text-align: left;
+     border-radius: 5px;
+     width: 50%;    
+
+}
+
+.escribir{
+
+    width:30%;
+
+}
+
+.boton{
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #000000;
+    width: 5%;
+    background-color:#03b9b9;
+    color: black;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 1%;
+}
+
+
+footer{
+    position: fixed; /* O absolute dependiendo de tus necesidades */
+    bottom: 0;
+    width: 100%;
+    background-color: #008584;
+    padding: 3% 3% 2%;  
+    margin-top: 4%;    border: 1px solid black;
+    margin-left: -5%;
+    height: 12%;
+}
+  
+.contacto{
+    margin-top: -2%;
+    float: right;
+     margin-right: 10%;
+}
+
+.rrss{
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.divRedSocial{
+    display: flex;
+    margin-bottom: 0.7%;
+
+}
+
+.redSocial{
+    margin-top: 0.2%;margin-left: 1%;
+}

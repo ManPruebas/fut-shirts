@@ -1,0 +1,102 @@
+html{   
+    bottom: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+.cabecera{
+    display: flex;
+}
+
+
+.menu{
+    margin-top: 3%;
+    margin-left:60%; display: flex; 
+    border: 1px solid black; height: 10%; width: 350px; 
+    background-color: #f7f7f7; 
+    height: 5%;
+
+}
+
+
+.menu p{
+
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+
+.contenido{
+    margin-left: 3%;margin-top: 3%;
+    margin-bottom: 14%;
+    
+}
+
+.equipacion{
+    border: 1px solid black;  
+}
+
+.filas{
+    margin-top: 3%; margin-left: 10%;
+}
+
+.fila{
+    display: flex;margin-bottom: 3%; 
+}
+
+.contenedor_equipacion{
+    display: flex; margin-right: 6%;
+	
+    width:90%;	
+
+}
+
+
+
+.caracteristica{
+    margin-top: 0%; margin-right: 7%;
+    margin-left: 10%;
+    width:100%;
+
+}
+
+
+
+footer{
+
+    bottom: 0;
+    width: 100%;
+    background-color: #008584;
+    padding: 3% 3% 2%;  
+    margin-top: 4%;    border: 1px solid black;
+    margin-left: -5%;
+    height: 400px;
+}
+  
+.contacto{
+    margin-top: -2%;
+    float: right;
+     margin-right: 10%;
+}
+
+.rrss{
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.divRedSocial{
+    display: flex;
+    margin-bottom: 0.7%;
+
+}
+
+.redSocial{
+    margin-top: 0.2%;margin-left: 1%;
+}

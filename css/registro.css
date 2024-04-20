@@ -1,0 +1,104 @@
+html{   
+    bottom: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100%;
+}
+
+body{
+
+    padding: 0;
+    overflow-x: hidden; min-height: 100%;
+}
+
+input{
+
+    width: 100%;
+
+}
+.contenido{
+
+    text-align: center; 
+    border: 1px solid black;
+    height:60%; 
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #e6e6e6;
+
+}
+
+
+.formulario{
+
+    margin-top: 4%;
+    
+}
+
+.contenidoFormulario{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.contenidoIzq{
+	margin-left: 20%;
+
+}
+
+.contenidoDer{
+	margin-right: 20%;
+
+}
+
+
+
+.botones{
+    margin-bottom: 3.5%;
+}
+
+.boton{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    border: 1px solid #000000;
+    width: 20%;
+    background-color:#03b9b9;
+    color: black;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 5%;
+}
+
+footer{
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #008584;
+    padding: 3% 3% 2%;  
+    margin-top: 4%;    border: 1px solid black;
+    margin-left: -5%;
+    height: 12%;
+}
+  
+.contacto{
+    margin-top: -2%;
+    float: right;
+     margin-right: 10%;
+}
+
+.rrss{
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.divRedSocial{
+    display: flex;
+    margin-bottom: 0.7%;
+
+}
+
+.redSocial{
+    margin-top: 0.2%;margin-left: 1%;
+}

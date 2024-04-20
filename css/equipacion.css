@@ -1,0 +1,138 @@
+html{   
+    bottom: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecera{
+    display: flex;
+}
+
+.menu{
+    margin-top: 3%;
+    margin-left:60%; display: flex; 
+    border: 1px solid black; height: 10%; width: 350px; 
+    background-color: #f7f7f7; 
+    height: 5%;
+}
+
+.menu p{
+
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.contenido{
+    margin-left: 10%; margin-top: 2%; display: flex;
+
+}
+
+.equipacion{
+    border: 1px solid black;  
+}
+
+.caracteristicas{
+    margin-left: 10%;
+}
+
+.nombre_temporada{
+
+    margin-left: 10%;
+
+}
+
+.disponibilidad_precio{
+    margin-bottom: 10%;
+    margin-left: 10%;
+
+}
+
+.dorsal_contenedor{
+    display: flex;margin-bottom: 10%;
+}
+
+.caracteristica{
+    margin-top: 0%; margin-right: 7%;
+        margin-left: 10%;
+
+}
+
+.inputDorsal{
+    height: 1%;width: 30%;
+
+}
+
+.nombre_contenedor{
+    display: flex;margin-bottom: 10%;
+}
+
+
+
+.inputNombre{
+    height: 1%;width: 50%;
+
+}
+
+.contenedor_talla{
+
+    display: flex;margin-bottom: 15%;    
+    width: 100%;
+}
+
+.opciones_talla{
+    height: 1%;width: 50%; 
+}
+
+
+.boton{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    border: 1px solid #000000;
+    width:120%;
+    height: 10%;
+    background-color:#03b9b9;
+    color: black;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+footer{
+    position: fixed; /* O absolute dependiendo de tus necesidades */
+    bottom: 0;
+    width: 100%;
+    background-color: #008584;
+    padding: 3% 3% 2%;  
+    margin-top: 4%;    border: 1px solid black;
+    margin-left: -5%;
+    height: 12%;
+}
+  
+.contacto{
+    margin-top: -2%;
+    float: right;
+     margin-right: 10%;
+}
+
+.rrss{
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.divRedSocial{
+    display: flex;
+    margin-bottom: 0.7%;
+
+}
+
+.redSocial{
+    margin-top: 0.2%;margin-left: 1%;
+}

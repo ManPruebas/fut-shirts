@@ -1,0 +1,85 @@
+html{   
+    bottom: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecera{
+    display: flex;
+}
+
+.menu{
+    margin-top: 3%;
+    margin-left:60%; display: flex; 
+    border: 1px solid black; height: 10%; width: 350px; 
+    background-color: #f7f7f7; 
+    height: 5%;
+}
+
+.menu p{
+
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+
+.flechas{
+    margin-right: 2%; margin-bottom: 8%;
+    margin-left: 2%;
+    cursor: pointer;
+    width:5%; height:74%;
+}
+
+.liga {
+
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.contenido {
+    margin-top:10%;
+    text-align: center;
+    margin-bottom: 26%; 
+
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #008584;
+    padding: 3% 3% 2%;  
+    margin-top: 4%;    border: 1px solid black;
+    margin-left: -5%;
+    height: 12%;
+}
+  
+.contacto{
+    margin-top: -2%;
+    float: right;
+     margin-right: 10%;
+}
+
+.rrss{
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.divRedSocial{
+    display: flex;
+    margin-bottom: 0.7%;
+
+}
+
+.redSocial{
+    margin-top: 0.2%;margin-left: 1%;
+}
